@@ -20,5 +20,37 @@ public class Variables {
         System.out.println(caracter1);
         System.out.println(caracter2);
         System.out.println(opcion);
+
+        //Variables de referencia
+
+        String mensaje, mensaje2;
+        mensaje = "Esto es un mensaje";
+        mensaje2 = """
+                Este
+                es
+                un mensaje
+                multilinea
+                """;
+        
+        System.out.println(mensaje);
+        System.out.println(mensaje2);
+        System.out.println(mensaje + " " + numero1);
+        System.out.println(mensaje.toUpperCase());
+        String numero1_string = Integer.toString(numero1);
+        System.out.println(mensaje.concat(numero1_string));
+
+        //Variable general
+
+        var variable1 = 15L;
+        var variable2 = "f";
+        var variable3 = 2.8754F;
+
+        final var PI = 3.14159;
+
+        System.out.println(variable1);
+        System.out.println(variable2);
+        System.out.println(variable3);
+        System.out.println(PI);
+        
     }
 }
