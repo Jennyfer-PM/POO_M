@@ -1,9 +1,9 @@
 public class Carpeta 
 {
-    private durabook;
-    private morado;
-    private cartón;
-    private 24x30cm;
+    private Marca;
+    private Color;
+    private Material;
+    private Dimensiones;
     //Atributos de la clase, marca, color, material y dimensiones
     public void asignarNombre(String guardar)
     {
@@ -23,5 +23,19 @@ public class Carpeta
             return ;   
         }
         nombre = quitar;
+    }
+
+    public static void main(String[]args)
+    {
+       Carpeta = new Carpeta01[];
+       Carpeta01 = asignarMarca("durabook");
+       Carpeta01 = asignarColor("morado");
+       Carpeta01 = asignarMaterial("cartón");
+       Carpeta01 = asignarDimensiones("24x30cm");
+
+       system.out.println(Carpeta01.obtenerMarca());
+       system.out.println(Carpeta01.obtenerColor());
+       system.out.println(Carpeta01.obtenerMaterial());
+       system.out.println(Carpeta01.obtenerDimensiones());
     }
 }
