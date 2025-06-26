@@ -9,10 +9,11 @@ public class AdivinaNumero
         int numero;
         int valor = (int)Math.floor(Math.random() * 20 + 1);
 
+        System.out.println("¡¡Intenta adivinar el número!!");
+
         do
         {
-            System.out.println("\n ¡¡Intenta adivinar el número!!");
-            System.out.println("Ingresa un número entre el 1 y el 20: ");
+            System.out.println("\nIngresa un número entre el 1 y el 20: ");
             numero = teclado.nextInt();
 
             if (numero > 20 || numero < 1)
