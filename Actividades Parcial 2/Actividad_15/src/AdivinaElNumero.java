@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AdivinaNumero 
+public class AdivinaElNumero 
 {
     public static void main(String[] args) throws Exception 
     {
@@ -18,7 +18,7 @@ public class AdivinaNumero
 
             if (numero > 20 || numero < 1)
             {
-                System.out.println("\n No ingresaste un número valido");
+                System.out.println("\nNo ingresaste un número valido");
                 System.out.println("Intentalo de nuevo ");
             }
 
